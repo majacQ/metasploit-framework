@@ -19,7 +19,7 @@ group :development do
   # for development and testing purposes
   gem 'pry'
   # module documentation
-  gem 'octokit'
+  gem 'octokit', '>= 4.15.0'
   # Metasploit::Aggregator external session proxy
   # disabled during 2.5 transition until aggregator is available
   #gem 'metasploit-aggregator'
